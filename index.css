@@ -1,0 +1,1429 @@
+/* CSS Reset */
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* Navigation CSS */
+
+.navbar {
+    display: flex;
+    height: 100px;
+}
+
+.logo {
+   font-size: 25px;
+   margin-top: 20px;
+   margin-left: 75px;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar ul li {
+    list-style: none;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-list {
+    margin-top: 33px;
+    font-size: 15px;
+    margin-left: 40px;
+}
+
+.features {
+    margin-left: 55px;
+}
+
+.resources {
+    margin-left: 55px;
+}
+
+.blog {
+    margin-left: 55px;
+}
+
+.price {
+    margin-left: 55px;
+}
+
+.login {
+    margin-left: 415px;
+    font-size: 20px;
+    margin-top: 0px;
+}
+
+.nav-right li {
+    list-style: none;
+}
+
+.nav-right li a {
+    text-decoration: none;
+    color: black;
+}
+
+.open-my-account {
+    position: absolute;
+    left: 1220px;
+    top: 10px;
+    width: 180px;
+    height: 55px;
+    border-radius: 30px;
+    margin-top: 8px;
+    padding-left: 26px;
+    padding-top: 18px;
+    background-color: darkcyan;
+}
+
+/* Main-1 CSS */
+
+.main-1 {
+    background-color: darkcyan;
+    border-radius: 25px;
+    margin-top: 60px;
+    height: 500px;
+    width: 1350px;
+    position: absolute;
+    left: 60px;
+}
+
+.m1-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.m1-right-img {
+    height: 500px;
+    width: 300px;
+    position: absolute;
+    left: 970px;
+    top: 0px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.m1-slogan3 {
+    position: absolute;
+    top: 350px;
+    left: 600px;
+}
+
+.slogan-3 {
+    margin-right: 10px;
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    right: 147px;
+    top: 2px;
+}
+
+.m1-slogan2 {
+    position: absolute;
+    top: 350.5px;
+    left: 375px;
+}
+
+.slogan-2 {
+    height: 18px;
+    width: 18px;
+    position: absolute;
+    right: 143px;
+    top: 2px;
+}
+
+.m1-slogan1 {
+    position: absolute;
+    top: 350px;
+    left: 190px;
+}
+
+.slogan-1 {
+    height: 18px;
+    width: 18px;
+    position: absolute;
+    right: 98px;
+    top: 0px;
+}
+
+.m1-box1 {
+    position: absolute;
+    left: 230px;
+    top: 250px;
+    width: 190px;
+    height: 55px;
+    border: 2px solid black;
+    border-radius: 30px;
+    margin-top: 8px;
+    padding-left: 26px;
+    padding-top: 17px;
+    background-color: black;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+.m1-box2 {
+    position: absolute;
+    left: 470px;
+    top: 250px;
+    width: 200px;
+    height: 55px;
+    border: 2px solid black;
+    border-radius: 30px;
+    margin-top: 8px;
+    padding-left: 26px;
+    padding-top: 17px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.m1-p1 {
+    position: absolute;
+    top: 210px;
+    left: 163px;
+    font-size: 16px;
+}
+
+.m1-headline {
+    font-size: 55px;
+    position: absolute;
+    top: 65px;
+    left: 160px;
+}
+
+.m1-bottom {
+    height: 800px;
+}
+
+.m1-4-5star {
+    height: 30px;
+    width: 50px;
+}
+
+.m1-icon2 {
+    height: 30px;
+    width: 50px;
+}
+
+
+.m1-p2 {
+    position: absolute;
+    top: 633.5px;
+    left: 300px;
+    font-size: 20px;
+}
+
+.m1-5star {
+    height: 30px;
+    width: 110px;
+    position: absolute;
+    bottom: 30px;
+    left: 10px;
+}
+
+.m1-icon1 {
+    width: 30px;
+    height: 25px;
+    position: absolute;
+    bottom: 1px;
+    left: 125px;
+}
+
+.m1-p3 {
+    position: absolute;
+    top: 633px;
+    left: 550px;
+    font-size: 20px;
+}
+
+.m1-4-5star {
+    height: 38px;
+    width: 150px;
+    position: absolute;
+    bottom: 25px;
+    left: 1px;
+}
+
+.m1-icon2 {
+    width: 25px;
+    height: 20px;
+    position: absolute;
+    bottom: 1px;
+    left: 155px;
+}
+
+.m1-vertical-line {
+    width: 1px;
+    height: 80px;
+    background-color: black;
+    position: absolute;
+    top: 590px;
+    left: 870px;
+}
+
+.m1-p4 {
+    font-size: 25px;
+    position: absolute;
+    top: 600px;
+    left: 900px;
+}
+
+.m1-p5 {
+    font-size: 20px;
+    position: absolute;
+    top: 635px;
+    left: 900px;
+}
+
+/* Main-2 CSS */
+
+.main-2 {
+    background-color: lightgrey;
+    color: black;
+    width: 1519.5px;
+    position: absolute;
+    top: 1000px;
+    height: 2300px;
+}
+
+.m2-heading {    
+    position: absolute;
+    left: 300px;
+    font-size: 40px;
+    margin-top: 130px;
+}
+
+.m2-heading-1 {
+    font-size: 40px;
+    position: absolute;
+    top: 180px;
+    left: 640px;
+}
+
+.m2-p1 {
+    position: absolute;
+    top: 250px;
+    left: 420px;
+    font-size: 30px;
+}
+
+.m2-img-1 {
+    width: 650px;    
+    height: 500px;
+    position: absolute;
+    top: 500px;
+    left: 100px;
+    border-radius: 30px;
+}
+
+.m2-heading-2 {
+    position: absolute;
+    top: 600px;
+    left: 850px;
+    font-size: 35px;
+}
+
+.m2-p2 {
+    position: absolute;
+    top: 720px;
+    left: 850px;
+}
+
+.m2-box1 {
+    position: absolute;
+    left: 850px;
+    top: 830px;
+    width: 220px;
+    height: 55px;
+    border: 2px solid black;
+    border-radius: 30px;
+    margin-top: 8px;
+    padding-left: 26px;
+    padding-top: 17px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.m2-img-2 {
+    width: 650px;    
+    height: 500px;
+    position: absolute;
+    top: 1100px;
+    left: 800px;
+    border-radius: 30px;
+}
+
+.m2-heading-3 {
+    position: absolute;
+    top: 1200px;
+    left: 250px;
+    font-size: 35px;
+}
+
+.m2-p3 {
+    position: absolute;
+    top: 1290px;
+    left: 250px;
+}
+
+.m2-box2 {
+    position: absolute;
+    left: 250px;
+    top: 1400px;
+    width: 195px;
+    height: 55px;
+    border: 2px solid black;
+    border-radius: 30px;
+    margin-top: 8px;
+    padding-left: 26px;
+    padding-top: 17px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.m2-img-3 {
+    width: 650px;    
+    height: 500px;
+    position: absolute;
+    top: 1700px;
+    left: 100px;
+    border-radius: 30px;
+}
+
+.m2-heading-4 {
+    position: absolute;
+    top: 1800px;
+    left: 850px;
+    font-size: 35px;
+}
+
+.m2-p4 {
+    position: absolute;
+    top: 1900px;
+    left: 850px;
+}
+
+.m2-box3 {
+    position: absolute;
+    left: 850px;
+    top: 1985px;
+    width: 220px;
+    height: 55px;
+    border: 2px solid black;
+    border-radius: 30px;
+    margin-top: 8px;
+    padding-left: 26px;
+    padding-top: 17px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+/* Main-3 CSS */
+
+.main-3 {
+    position: absolute;
+    top: 3500px;
+    height: 500px;
+}
+
+.m3-left-1 {
+    height: 250px;
+    width: 1400px;
+    background-color: darkcyan;
+    position: absolute;
+    left: 60px;
+    border-radius: 30px;
+}
+
+.m3-p1 {
+    position: absolute;
+    top: 140px;
+    left: 100px;
+    font-size: 20px;
+}
+
+.m3-heading-1 {
+    font-size: 40px;
+    position: absolute;
+    top: 70px;
+    left: 100px;
+}
+
+.m3-img-1 {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    left: 950px;
+    bottom: 50px;
+}
+
+.m3-top {
+    position: absolute;
+    left: 90px;
+    bottom: 233px;
+    height: 30px;
+    width: 70px;
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 20px;
+    padding-left: 18px;
+    padding-top: 5px;
+}
+
+/* Main-4 CSS */
+
+.main-4 {
+    position: absolute;
+    top: 3850px;
+    height: 1000px;
+    width: 1519px;
+}
+
+.m4-heading-1 {
+    font-size: 45px;
+    position: absolute;
+    left: 485px;
+}
+
+.m4-p1 {
+    position: absolute;
+    top: 70px;
+    left: 375px;
+    font-size: 23px;
+}
+
+.m4-mid {
+    display: flex;
+    position: absolute;
+    top: 200px;
+}
+
+.m4-box1 {
+    background-color: darkcyan;
+    border-radius: 30px;
+    height: 500px;
+    position: absolute;
+    left: 1px;
+    width: 450px;
+}
+
+.m4-heading-2 {
+    position: absolute;
+    top: 330px;
+    left: 70px;
+    font-size: 25px;
+}
+
+.m4-p2 {
+    position: absolute;
+    top: 370px;
+    left: 70px;
+    font-size: 17px;
+}
+
+.m4-box2 {
+    background-color: darkcyan;
+    border-radius: 30px;
+    height: 500px;
+    position: absolute;
+    left: 535px;
+    width: 450px;
+}
+
+.m4-heading-3 {
+    position: absolute;
+    top: 330px;
+    left: 70px;
+    font-size: 25px;
+}
+
+.m4-p3 {
+    position: absolute;
+    top: 370px;
+    left: 70px;
+    font-size: 17px;
+}
+
+.m4-box3 {
+    background-color: darkcyan;
+    border-radius: 30px;
+    height: 500px;
+    position: absolute;
+    left: 1068px;
+    width: 450px;
+}
+
+.m4-heading-4 {
+    position: absolute;
+    top: 330px;
+    left: 70px;
+    font-size: 25px;
+}
+
+.m4-p4 {
+    position: absolute;
+    top: 370px;
+    left: 70px;
+    font-size: 17px;
+}
+
+/* Main-5 CSS */
+
+.main-5 {
+    position: absolute;
+    top: 4700px;
+    height: 700px;
+}
+
+.m5-left {
+    width: 1350px;
+    position: absolute;
+    background-color: lightgrey;
+    left: 60px;
+    border-radius: 30px;
+    height: 600px;
+}
+
+.m5-heading-1 {
+    font-size: 50px;
+    position: absolute;
+    top: 150px;
+    left: 100px;
+}
+
+.m5-p1 {
+    font-size: 25px;
+    position: absolute;
+    top: 290px;
+    left: 100px;
+}
+
+.m5-p2 {
+    position: absolute;
+    left: 100px;
+    top: 390px;
+    width: 220px;
+    height: 55px;
+    border: 2px solid black;
+    border-radius: 30px;
+    margin-top: 8px;
+    padding-left: 26px;
+    padding-top: 17px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.m5-right {
+    position: absolute;
+    left: 850px;
+    top: 65px;
+}
+
+.m5-img-box1 {
+    width: 50px;
+    height: 50px;
+    background-color: lightgrey;
+    border-radius: 10px;
+    position: absolute;
+    top: 17px;
+    left: 15px;
+}
+
+.m5-img-1 {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 8px;
+    left: 9.5px;
+}
+
+.m5-box1 {
+    width: 400px;
+    height: 90px;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+}
+
+.m5-p3 {
+    position: absolute;
+    left: 75px;
+    top: 35px;
+}
+
+.m5-box2 {
+    position: absolute;
+    top: 120px;
+}
+
+.m5-img-box2 {
+    width: 50px;
+    height: 50px;
+    background-color: lightgrey;
+    border-radius: 10px;
+    position: absolute;
+    top: 17px;
+    left: 15px;
+}
+
+.m5-img-2 {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 8px;
+    left: 9.5px;
+}
+
+.m5-box2 {
+    width: 400px;
+    height: 90px;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+}
+
+.m5-p4 {
+    position: absolute;
+    left: 75px;
+    top: 35px;
+}
+
+.m5-box3 {
+    position: absolute;
+    top: 245px;
+}
+
+.m5-img-box3 {
+    width: 50px;
+    height: 50px;
+    background-color: lightgrey;
+    border-radius: 10px;
+    position: absolute;
+    top: 17px;
+    left: 15px;
+}
+
+.m5-img-3 {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 8px;
+    left: 9.5px;
+}
+
+.m5-box3 {
+    width: 400px;
+    height: 90px;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+}
+
+.m5-p5 {
+    position: absolute;
+    left: 75px;
+    top: 35px;
+}
+
+.m5-box4 {
+    position: absolute;
+    top: 370px;
+}
+
+.m5-img-box4 {
+    width: 50px;
+    height: 50px;
+    background-color: lightgrey;
+    border-radius: 10px;
+    position: absolute;
+    top: 17px;
+    left: 15px;
+}
+
+.m5-img-4 {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 8px;
+    left: 9.5px;
+}
+
+.m5-box4 {
+    width: 400px;
+    height: 90px;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+}
+
+.m5-p6 {
+    position: absolute;
+    left: 75px;
+    top: 35px;
+}
+
+/* Main-6 CSS */
+
+.main-6 {
+    position: absolute;
+    top: 5500px;
+    left: 60px;
+    height: 1700px;
+    width: 1350px;
+    border-radius: 30px;
+    background-color: darkcyan;
+}
+
+.m6-main-heading-1 {
+    font-size: 45px;
+    position: absolute;
+    top: 100px;
+    left: 340px;
+}
+
+.m6-main-p1 {
+    font-size: 35px;
+    position: absolute;
+    top: 170px;
+    left: 300px;
+}
+
+.m6-mid {
+    position: absolute;
+    top: 200px;
+}
+
+.m6-img-1 {
+    width: 270px;
+    height: 450px;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
+.m6-box1 {
+    position: absolute;
+    left: 100px;
+    top: 450px;
+    width: 270px;
+    height: 100px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.m6-heading-1 {
+    padding-left: 85px;
+    padding-top: 10px;
+}
+
+.m6-p1 {
+    font-size: 13px;
+    padding-top: 9px;
+    padding-left: 43px;
+}
+
+.m6-img-2 {
+    width: 270px;
+    height: 450px;
+    position: absolute;
+    top: 100px;
+    left: 540px;
+}
+
+.m6-box2 {
+    position: absolute;
+    left: 540px;
+    top: 450px;
+    width: 270px;
+    height: 100px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.m6-heading-2 {
+    padding-left: 70px;
+    padding-top: 15px;
+}
+
+.m6-p2 {
+    font-size: 13px;
+    padding-top: 9px;
+    padding-left: 33px;
+}
+
+.m6-img-3 {
+    width: 270px;
+    height: 450px;
+    position: absolute;
+    top: 100px;
+    left: 985px;
+    border-radius: 20px;
+}
+
+.m6-box3 {
+    position: absolute;
+    left: 985px;
+    top: 450px;
+    width: 270px;
+    height: 100px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.m6-heading-3 {
+    padding-left: 35px;
+    padding-top: 15px;
+}
+
+.m6-p3 {
+    font-size: 13px;
+    padding-top: 9px;
+    padding-left: 20px;
+}
+
+.m6-bottom {
+    position: absolute;
+    top: 850px;
+}
+
+.m6-main-heading-2 {
+    font-size: 45px;
+    width: 700px;
+    position: absolute;
+    top: 80px;
+    left: 340px;
+}
+
+.m6-box4 {
+    position: absolute;
+    left: 100px;
+    top: 252px;
+    width: 270px;
+    height: 450px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.m6-bottom-box1 {
+    position: absolute;
+    left: 30px;
+    top: 350px;
+    width: 200px;
+    height: 55px;
+    border: 2px solid black;
+    border-radius: 30px;
+    margin-top: 8px;
+    padding-left: 26px;
+    padding-top: 17px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.m6-p4 {
+    position: absolute;
+    top: 270px;
+    left: 42px;
+}
+
+.m6-heading-4 {
+    position: absolute;
+    top: 215px;
+    left: 37px;
+    font-size: 25px;
+}
+
+.m6-img-4 {
+    position: absolute;
+    left: 50px;
+    top: 25px;
+}
+
+.m6-box5 {
+    position: absolute;
+    left: 540px;
+    top: 250px;
+    width: 270px;
+    height: 450px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.m6-bottom-box2 {
+    position: absolute;
+    left: 33px;
+    top: 355px;
+    width: 200px;
+    height: 55px;
+    border: 2px solid black;
+    border-radius: 30px;
+    margin-top: 8px;
+    padding-left: 26px;
+    padding-top: 17px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.m6-p5 {
+    position: absolute;
+    top: 270px;
+    left: 25px;
+}
+
+.m6-heading-5 {
+    position: absolute;
+    top: 215px;
+    left: 45px;
+    font-size: 25px;
+}
+
+.m6-img-5 {
+    position: absolute;
+    left: 60px;
+    top: 25px;
+}
+
+.m6-box6 {
+    position: absolute;
+    left: 985px;
+    top: 250px;
+    width: 270px;
+    height: 450px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.m6-bottom-box3 {
+    position: absolute;
+    left: 35px;
+    top: 350px;
+    width: 200px;
+    height: 55px;
+    border: 2px solid black;
+    border-radius: 30px;
+    margin-top: 8px;
+    padding-left: 34.5px;
+    padding-top: 17px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.m6-p6 {
+    position: absolute;
+    top: 270px;
+    left: 35px;
+}
+
+.m6-heading-6 {
+    position: absolute;
+    top: 215px;
+    left: 45px;
+    font-size: 25px;
+}
+
+.m6-img-6 {
+    position: absolute;
+    left: 55px;
+    top: 25px;
+}
+
+/* Main-7 CSS */
+
+.main-7 {
+    position: absolute;
+    top: 7500px;
+    background-color: lightgrey;
+    width: 1519px;
+    height: 1150px;
+}
+
+.m7-img-1 {
+    width: 450px;
+    height: 450px;
+    position: absolute;
+    top: 150px;
+    left: 100px;
+}
+
+.m7-img-2 {
+    width: 460px;
+    height: 460px;
+    position: absolute;
+    top: 620px;
+    left: 960px;
+}
+
+.m7-mid {
+    position: absolute;
+    top: 300px;
+    left: 590px;
+}
+
+.m7-heading-1 {
+    font-size: 35px;
+    position: absolute;
+    top: 200px;
+    left: 18px;
+    width: 500px;
+}
+
+.m7-p1 {
+    font-size: 16px;
+    width: 500px;
+    position: absolute;
+    top: 260px; 
+}
+
+.m7-p2 {
+    position: absolute;
+    top: 300px;
+    left: 53px;
+    font-size: 16px;
+    width: 500px;
+}
+
+.m7-p3 {
+    position: absolute;
+    top: 380px;
+    left: 80px;
+    width: 200px;
+}
+
+/* Main-8 CSS */
+
+.main-8 {
+    position: absolute;
+    top: 8800px;
+    height: 500px;
+}
+
+.m8-heading {
+    font-size: 40px;
+    width: 850px;
+    position: absolute;
+    left: 375px;
+}
+
+.m8-box1 {
+    width: 60px;
+    height: 60px;
+    border-radius: 40px;
+    background-color: darkcyan;
+    position: absolute;
+    top: 100px;
+    left: 365px;
+}
+
+.m8-box1-content {
+    position: absolute;
+    top: 118px;
+    left: 383px;
+    font-size: 20px;
+    color: white;
+}
+
+.m8-heading-1 {
+    position: absolute;
+    top: 170px;
+    left: 300px;
+    width: 250px;
+    font-size: 25px;
+}
+
+.m8-p1 {
+    position: absolute;
+    top: 210px;
+    left: 245px;
+    width: 350px;
+    font-size: 18px;
+}
+
+.m8-mini-p1 {
+    position: absolute;
+    top: 235px;
+    left: 355px;
+    font-size: 18px;
+    width: 100px;
+}
+
+.m8-mid-center {
+    position: absolute;
+    top: 100px;
+    left: 640px;
+    width: 300px;
+}
+
+.m8-box2 {
+    width: 60px;
+    height: 60px;
+    border-radius: 40px;
+    background-color: darkcyan;
+    position: absolute;
+    left: 110px;
+}
+
+.m8-box2-content {
+    position: absolute;
+    top: 18px;
+    left: 128px;
+    font-size: 20px;
+    color: white;
+}
+
+.m8-heading-2 {
+    position: absolute;
+    top: 70px;
+    left: 53px;
+    width: 250px;
+    font-size: 25px;
+}
+
+.m8-p2 {
+    position: absolute;
+    top: 111px;
+    width: 350px;
+    font-size: 18px;
+}
+
+.m8-mini-p2 {
+    font-size: 18px;
+    width: 150px;
+    position: absolute;
+    top: 134px;
+    left: 90px;
+}
+
+.m8-mid-right {
+    position: absolute;
+    left: 1020px;
+    top: 100px;
+    width: 500px;
+}
+
+.m8-box3 {
+    width: 60px;
+    height: 60px;
+    border-radius: 40px;
+    background-color: darkcyan;
+    position: absolute;
+    left: 120px;
+}
+
+.m8-box3-content {
+    position: absolute;
+    top: 18px;
+    left: 138px;
+    font-size: 20px;
+    color: white;
+}
+
+.m8-heading-3 {
+    position: absolute;
+    top: 70px;
+    left: 63px;
+    width: 250px;
+    font-size: 25px;
+}
+
+.m8-p3 {
+    position: absolute;
+    top: 111px;
+    width: 350px;
+    font-size: 18px;
+}
+
+.m8-mini-p3 {
+    font-size: 18px;
+    width: 150px;
+    position: absolute;
+    top: 150px;
+    left: 110px;
+}
+
+.m8-box4 {
+    position: absolute;
+    left: 685px;
+    top: 350px;
+    width: 210px;
+    height: 55px;
+    border: 2px solid black;
+    border-radius: 30px;
+    margin-top: 8px;
+    padding-left: 26px;
+    padding-top: 17px;
+    background-color: black;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+/* Main-9 CSS */
+
+.main-9 {
+    position: absolute;
+    top: 9350px;
+    left: 60px;
+    background-color: darkcyan;
+    width: 1350px;
+    height: 650px;
+    border-radius: 25px;
+
+}
+
+.m9-img-1 {
+    width: 400px;
+    height: 450px;
+    position: absolute;
+    top: 100px;
+    left: 90px;
+}
+
+.m9-heading-1 {
+    position: absolute;
+    top: 120px;
+    left: 500px;
+    font-size: 40px;
+}
+
+.m9-p1 {
+    position: absolute;
+    top: 225px;
+    left: 500px;
+    font-size: 28px;
+}
+
+.m9-box1 {
+    position: absolute;
+    top: 280px;
+    left: 500px;
+    width: 35px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: lightgrey;
+    
+}
+
+.m9-img-2 {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 1.5px;
+    left: 2px;
+}
+
+.m9-p2 {
+    width: 400px;
+    position: absolute;
+    left: 45px;
+    top: 5.5px;
+    font-size: 20px;
+}
+
+.m9-box2 {
+    position: absolute;
+    top: 330px;
+    left: 500px;
+    width: 35px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: lightgrey;
+    
+}
+
+.m9-img-3 {
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    top: 1.5px;
+}
+
+.m9-p3 {
+    width: 400px;
+    position: absolute;
+    left: 45px;
+    top: 5.5px;
+    font-size: 20px;
+}
+
+.m9-box3 {
+    position: absolute;
+    top: 380px;
+    left: 500px;
+    width: 35px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: lightgrey;
+    
+}
+
+.m9-img-4 {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 1.5px;
+    left: 2px;
+}
+
+.m9-p4 {
+    width: 400px;
+    position: absolute;
+    left: 45px;
+    top: 5.5px;
+    font-size: 20px;
+}
+
+.m9-box4 {
+    position: absolute;
+    top: 430px;
+    left: 500px;
+    width: 35px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: lightgrey;
+    
+}
+
+.m9-img-5 {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 1.5px;
+    left: 2px;
+}
+
+.m9-p5 {
+    width: 400px;
+    position: absolute;
+    left: 45px;
+    top: 5.5px;
+    font-size: 20px;
+}
+
+.m9-box5 {
+    position: absolute;
+    left: 500px;
+    top: 500px;
+    width: 210px;
+    height: 55px;
+    border: 2px solid black;
+    border-radius: 30px;
+    margin-top: 8px;
+    padding-left: 26px;
+    padding-top: 17px;
+    background-color: black;
+    color: whitesmoke;
+    cursor: pointer;
+}
